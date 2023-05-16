@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+ // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
@@ -16,11 +16,11 @@ const questions = [
         name: "description",
         message: "Description"
     },
-    {
-        type: "input",
-        name: "table of contents",
-        message: "Table of Contents",
-    },
+    // {
+    //     type: "input",
+    //     name: "table of contents",
+    //     message: "Table of Contents",
+    // },
     {
         type: "input",
         name: "installation",
@@ -41,6 +41,7 @@ const questions = [
             "Apache 2.0",
             "ISC",
             "BSD",
+            "None"
         ],
     },
     {
@@ -69,14 +70,16 @@ const questions = [
 function writeToFile(fileName, data) {
     // add fs code here to save file
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('Success!'))
+    err ? console.error(err) : console.log('Success!'));
+    console.log()
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(function(answers) {
-        const markdownText = generateMarkdown(answers)
-        writeToFile("my-readme.txt", markdownText)
+        console.log(answers);
+        const markdownText = generateMarkdown(answers);
+        writeToFile("README2.md", markdownText);
     });
 }
 

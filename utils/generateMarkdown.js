@@ -61,7 +61,7 @@ function generateMarkdown({title, description, installation, usage, license, tes
   ${test}
 
   ## Questions
-  Github: ${question1}
+  Github: ${question1}\n
   Email: ${quesion2}
 
   ## License

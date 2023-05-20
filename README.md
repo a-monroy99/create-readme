@@ -11,6 +11,10 @@ This allows you create README much faster through the command line interface.
 
 ![a viedo walk through of my code](assets/module-10-video.mp4)
 
+https://github.com/a-monroy99/create-readme/assets/125234279/87898d5b-b906-4bd5-9f95-ebd1397b778d
+
+
+
 ## Test
 N/A
 

@@ -9,6 +9,10 @@ In order for this generator to work you must install node npm and node inquierer
 ## Usage 
 This allows you create README much faster
 
+https://github.com/a-monroy99/create-readme/assets/125234279/87898d5b-b906-4bd5-9f95-ebd1397b778d
+
+
+
 ## Test
 N/A
 

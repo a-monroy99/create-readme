@@ -1,8 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # <Youre-Prroject-Title>
+  # Your-Project-Title-Here
 
   ## Description
-  Provide a short description explaining the what, why, and how of your project
+  Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
   ## Table of Contents 
   [Installation](#installation)
@@ -19,17 +19,21 @@
 
 
   ## Insatallation
-  Please install npm in your terminal and after install inquirer version   8.2.4
+  What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
   ## Usage
-  Provide instructions and examples for use. Included screenshots as needed
+  
+
+  ## Contributing
+  If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
   ## Test
-  Go the extra mile to include how to write test for your application
+  Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
   ## Questions
-  Github: mygithubusername
-  Email: myemail@email.com
+  Github: 
+
+  Email: github-username
 
   ## License
   [[License: MIT](https://opensource.org/licenses/MIT)]
